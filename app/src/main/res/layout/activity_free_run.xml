@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FreeRun">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="55dp"
+        android:text="今日剩余里程:"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView_restMielage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="126dp"
+        android:layout_y="55dp"
+        android:text="初始化中......"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="110dp"
+        android:text="刷"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <EditText
+        android:id="@+id/editText_mileage"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_x="87dp"
+        android:layout_y="94dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="289dp"
+        android:layout_y="114dp"
+        android:text="公里(可以为负)"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="191dp"
+        android:text="上传"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <Button
+        android:id="@+id/button_force"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="117dp"
+        android:layout_y="192dp"
+        android:text="强制上传"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="279dp"
+        android:layout_height="162dp"
+        android:layout_x="45dp"
+        android:layout_y="291dp"
+        android:text="上传和强制上传的区别：“上传”操作无法上传大于有效里程或者为负的离谱数据，“强制上传”可以"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+</AbsoluteLayout>

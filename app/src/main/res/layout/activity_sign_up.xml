@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="21dp"
+        android:text="当前活动：" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="288dp"
+        android:text="完整输入待操作的活动的名称：" />
+
+    <EditText
+        android:id="@+id/editText_activityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="312dp"
+        android:ems="10"
+        android:hint="输入名称或点击上面"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button_uploadSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="142dp"
+        android:layout_y="374dp"
+        android:text="签到" />
+
+    <TextView
+        android:id="@+id/textView_allActivities"
+        android:layout_width="379dp"
+        android:layout_height="204dp"
+        android:layout_x="11dp"
+        android:layout_y="46dp"
+        android:text="加载中..." />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="384dp"
+        android:layout_height="251dp"
+        android:layout_x="12dp"
+        android:layout_y="431dp"
+        android:text="注意：报了名才能签到成功，报名这种事就自己乐健报一下吧，这两天挺忙的，懒得写了(懒出一种境界)" />
+
+</AbsoluteLayout>
